@@ -1,10 +1,10 @@
-﻿// ==UserScript==
+// ==UserScript==
 // @name		MyApp
 // @version		1.0.1
 // @description MyApp
 
-// @match       *://*/*
-// @match       *
+// @include       *://*/*
+// @include       *
 
 // @grant		GM_getValue
 // @grant		GM_setValue
@@ -19,11 +19,10 @@
 // @grant		GM.openInTab
 // @grant       GM_getResourceText
 
-// @resource    getCssMain file:///c:/Users/vladimir.talan/repos/myApp/myApp.css.css
+// @resource    getCssMain https://raw.githubusercontent.com/TalanVladimir/my-app/master/myApp.css
 
 // @require     https://raw.githubusercontent.com/TalanVladimir/TampermonkeyCore/master/src/HotkeysClass.js
-
-// @require     file:///c:/Users/vladimir.talan/repos/myApp/myApp.js
+// @require     https://raw.githubusercontent.com/TalanVladimir/my-app/master/myApp.js
 
 // @run-at      document-end
 // ==/UserScript==
